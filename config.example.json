@@ -1,0 +1,55 @@
+[
+    {
+        "name": "HTTP Proxy",
+        "enabled": true,
+        "scheme": "HTTP",
+        "host": "proxy.example.com",
+        "port": 8080,
+        "auth": {
+            "credentials": {
+                "username": "user",
+                "password": "pass"
+            },
+            "token": ""
+        },
+        "rules": [
+            {
+                "name": "YouTube",
+                "hosts": [
+                    "youtu.be",
+                    "*.googlevideo.com",
+                    "*.youtube.com",
+                    "*.ytimg.com"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "SOCKS5 Proxy",
+        "enabled": true,
+        "scheme": "SOCKS5",
+        "host": "socks.example.com",
+        "port": 1080,
+        "auth": {
+            "credentials": {
+                "username": "socksuser",
+                "password": "sockspass"
+            },
+            "token": ""
+        },
+        "rules": [
+            {
+                "name": "Discord",
+                "hosts": [
+                    "*discord*.*"
+                ]
+            },
+            {
+                "name": "Check IP",
+                "hosts": [
+                    "api.ipify.org"
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,18 @@
+# Binaries
+proxy-cli.exe
+proxy-cli
+
+# Go build cache
+*.test
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Personal configs
+config.json
+config.test.json
