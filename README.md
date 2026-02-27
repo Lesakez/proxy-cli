@@ -4,6 +4,8 @@ A lightweight CLI tool written in Go that runs a local HTTP proxy with **domain-
 
 Route traffic for specific domains through an upstream proxy, while everything else connects directly. Configured via a simple JSON file.
 
+Русская версия: [README_RU.md](./README_RU.md)
+
 ---
 
 ## How It Works
